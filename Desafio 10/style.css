@@ -1,0 +1,141 @@
+
+@font-face {
+   font-family: Idroid;
+   src: url(fontes/idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+*{
+    margin: 0;
+}
+body{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(118, 255, 118);
+    text-align: justify;
+
+
+    
+}
+header{
+    background-image: linear-gradient(rgba(0, 128, 0, 0.459), green);
+    text-align: center;
+    color: white;
+    padding: 25px;
+       
+
+}
+header > h1 {
+      font-family:'bebas neue';
+      font-size: 2.5em;
+      
+}
+   
+main > article > h1 {
+    font-family: Idroid;
+    color: green;
+    font-size: 1.8em;
+}
+nav{
+    text-align: left;
+    font-weight: bold;
+    background-color: green;
+    padding: 3px;
+}
+
+nav:hover > a{
+    color: green;
+    background-color: black;
+}
+    
+
+nav > a {
+    padding-left: 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: green;
+}
+h2{
+    font-family: Idroid;
+    color: green;
+    background-image: linear-gradient(to right, rgba(61, 158, 61, 0.404), rgba(61, 158, 61, 0.082));
+}
+
+p{
+    text-indent: 40px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+h1,h2,p,img{
+    margin-bottom: 20px;
+}
+main{
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 25px;
+    
+}
+
+.video{
+    text-align: center;
+    max-width: 100%;
+    background-color: green;
+    padding: 20px;
+       
+    
+    
+    
+}
+
+
+section{
+    background-color:rgba(128, 128, 128, 0.315);
+    padding: 10px;
+    max-width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 15px;
+
+    
+}
+
+#quer{
+    background-color: rgba(0, 128, 0, 0.637);
+    color: white;
+    padding: 8px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    border-radius: 10px 10px 0px 0px;
+    font-weight: bolder;
+}
+
+
+ul{
+    display: inline-block;
+    padding-bottom: 15px;
+    list-style-image: url(imagens/icons8-done-16.png);
+    
+}
+
+Ul > li >abbr{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: green;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
